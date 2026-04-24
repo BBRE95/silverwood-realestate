@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" fill="none">
+  <g transform="translate(10 8)" stroke="#0a1628" stroke-width="6" stroke-linecap="butt" stroke-linejoin="miter">
+    <line x1="60" y1="2" x2="60" y2="159"/>
+    <line x1="60" y1="2" x2="28" y2="34"/>
+    <line x1="60" y1="3" x2="92" y2="33"/>
+    <line x1="62" y1="27" x2="20" y2="68"/>
+    <line x1="60" y1="30" x2="102" y2="67"/>
+    <line x1="62" y1="50" x2="8" y2="103"/>
+    <line x1="60" y1="53" x2="114" y2="102"/>
+    <line x1="60" y1="79" x2="3" y2="134"/>
+    <line x1="60" y1="79" x2="117" y2="134"/>
+    <line x1="60" y1="102" x2="28" y2="133"/>
+    <line x1="60" y1="101" x2="94" y2="133"/>
+    <line x1="34" y1="160" x2="86" y2="160"/>
+  </g>
+  <g fill="#0a1628">
+    <text x="170" y="88" font-family="Constantia, 'Cormorant Garamond', Georgia, serif" font-size="62" font-weight="400" letter-spacing="-1.5">SILVERWOOD</text>
+    <text x="170" y="140" font-family="Corbel, 'Inter', 'Helvetica Neue', sans-serif" font-size="34" font-weight="700" letter-spacing="6">REAL ESTATE</text>
+  </g>
+</svg>
