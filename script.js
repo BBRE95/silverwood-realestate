@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) {
     form.addEventListener('submit', (ev) => {
       ev.preventDefault();
-      const to = form.dataset.mailto || 'brandonbecker.realestate@gmail.com';
+      const to = form.dataset.mailto || 'bbecker@silverwood-realestate.com';
       const name = (form.elements['name'] || {}).value || '';
       const email = (form.elements['email'] || {}).value || '';
       const subject = (form.elements['subject'] || {}).value || 'Inquiry via silverwood-realestate.com';

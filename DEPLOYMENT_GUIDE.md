@@ -123,16 +123,11 @@ Keep only:
 
 ---
 
-## OPTIONAL — Set up a branded email (~10 min, free)
+## Branded email — bbecker@silverwood-realestate.com
 
-To get `brandon@silverwood-realestate.com` forwarding into your Gmail:
+The contact form sends to `bbecker@silverwood-realestate.com`. If you ever change the branded address, update the `data-mailto` attribute in `contact.html` and the fallback default in `script.js`, then push to GitHub — Cloudflare Pages auto-redeploys.
 
-1. In Cloudflare, go to **Email → Email Routing** for your domain
-2. Click **Get started** → Cloudflare auto-configures the DNS records
-3. Add a routing rule: `brandon@silverwood-realestate.com` → `brandonbecker.realestate@gmail.com`
-4. You can now receive mail at the branded address. To **send** from it, add it as an alias in Gmail settings (Settings → Accounts → Send mail as → Add another email). Follow the prompts; you'll authenticate via Cloudflare/SMTP.
-
-Once that's set up, in `contact.html` and `script.js` swap `brandonbecker.realestate@gmail.com` back to `brandon@silverwood-realestate.com` and re-upload to GitHub — Cloudflare Pages auto-redeploys.
+To set up forwarding so messages to `bbecker@silverwood-realestate.com` land in your personal inbox: in Cloudflare go to **Email → Email Routing** for your domain, click **Get started** (Cloudflare auto-configures the DNS records), then add a routing rule pointing `bbecker@silverwood-realestate.com` to your personal Gmail. To *send* from the branded address, add it as an alias in Gmail (Settings → Accounts → Send mail as → Add another email).
 
 ---
 
